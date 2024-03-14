@@ -1,0 +1,17 @@
+.home-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+}
+app-hero {
+  display: flex;
+}
+
+app-works {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+app-about {
+  display: flex;
+}

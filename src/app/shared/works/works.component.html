@@ -1,0 +1,69 @@
+<div class="works-holder">
+  <div class="works-list">
+    <img
+      class="logo"
+      src="../../../assets/logos/iescelia.jpg"
+      alt="Celias's Logo"
+      nz-dropdown
+      [nzDropdownMenu]="celia"
+    />
+    <img
+      class="logo"
+      src="../../../assets/logos/coderty.jpg"
+      alt="Coderty's Logo"
+      nz-dropdown
+      [nzDropdownMenu]="coderty"
+    />
+    <img
+      class="logo"
+      src="../../../assets/logos/pgo.jpg"
+      alt="PgO's Logo"
+      nz-dropdown
+      [nzDropdownMenu]="pgo"
+    />
+    <img
+      class="logo"
+      src="../../../assets/logos/platzi.png"
+      alt="Platzi's Logo"
+      nz-dropdown
+      [nzDropdownMenu]="platzi"
+    />
+  </div>
+  <div class="content-wrap">
+    <div class="content">
+      <h2>Calidad, Profesionalidad, Dedicación</h2>
+      <p>
+        A mi experiencia laboral se suman proyectos personales, y realización de
+        cursos de manera constante. Mira algunos de los proyectos en los que he
+        participado:
+      </p>
+    </div>
+  </div>
+</div>
+
+<nz-dropdown-menu #celia="nzDropdownMenu">
+  <ul nz-menu nzSelectable>
+    <li nz-menu-item>FP Superior en Desarrollo de Aplicaciones Web</li>
+    <li nz-menu-item>Proyecto QRCelia</li>
+  </ul>
+</nz-dropdown-menu>
+
+<nz-dropdown-menu #coderty="nzDropdownMenu">
+  <ul nz-menu nzSelectable>
+    <li nz-menu-item>Mantenimiento y desarrollo de Foodtic</li>
+  </ul>
+</nz-dropdown-menu>
+<nz-dropdown-menu #pgo="nzDropdownMenu">
+  <ul nz-menu nzSelectable>
+    <li nz-menu-item>Mantenimiento y Desarrollo en las web PgO</li>
+    <li nz-menu-item>Mantenimiento y Desarrollo de OST</li>
+  </ul>
+</nz-dropdown-menu>
+<nz-dropdown-menu #platzi="nzDropdownMenu">
+  <ul nz-menu nzSelectable>
+    <li nz-menu-item>Ruta de Diseñador FrontEnd</li>
+    <li nz-menu-item>Ruta de Diseño con Angular</li>
+    <li nz-menu-item>Ruta de Diseño con React</li>
+    <li nz-menu-item>Ruta de Diseño con Next</li>
+  </ul>
+</nz-dropdown-menu>

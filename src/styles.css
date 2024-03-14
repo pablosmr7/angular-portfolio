@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+.dark-theme {
+  background: url("./assets/backgrounds/dark-mode-background.jpeg") no-repeat
+    center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #121212;
+  color: #ffffff !important;
+}
+
+.light-theme {
+  background: url("./assets/backgrounds/light-mode-background.jpeg") no-repeat
+    center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #ffffff;
+  color: #121212 !important;
+}
