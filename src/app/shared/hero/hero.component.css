@@ -13,7 +13,7 @@
 .me {
   width: 250px;
   height: 350px;
-  border: 1px solid rgba(204, 204, 204, 0.65);
+
   border-radius: 1%;
 }
 
@@ -39,4 +39,25 @@
   height: 100%;
   color: #fff;
   overflow: hidden;
+}
+
+@media (max-width: 780px) {
+  .hero-holder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    background-color: white;
+    box-shadow: 10px 10px 25px rgba(0, 191, 255, 0.801);
+    border-radius: 1%;
+    margin: 3rem;
+    padding: 1rem;
+  }
+
+  .content {
+    padding: 1rem 0.5rem;
+    width: 80%;
+    color: black;
+  }
 }

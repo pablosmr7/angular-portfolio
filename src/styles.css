@@ -1,4 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: "Nunito-Regular";
+  src: url("./assets/fonts/Nunito-Regular.ttf") format("truetype");
+}
+
+body {
+  font-family: "Nunito-Regular" !important;
+}
+
 .dark-theme {
   background: url("./assets/backgrounds/dark-mode-background.jpeg") no-repeat
     center center fixed;
